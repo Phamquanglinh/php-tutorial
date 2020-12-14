@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>Ex_01</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Travel reservation form</h1>
+<h2>*denotes mandotory</h2>
+<form>
+        <label>Full Name*: </label><br>
+        <input name="name" type="text" maxlength="50" placeholder="FirstName LastName"><br>
+        <label>E-mail address*: </label><br>
+        <input name="email" type="email" maxlength="50"><br>
+        <label>Select Tour Package</label>
+        <select>
+            <option>Goa</option>
+            <option>Vietnam</option>
+        </select>
+        <br>
+        <label>Arrival date * : </label>
+        <input type="date" placeholder="m/d/y">
+        <br>
+        <label>What would you want to availi?* </label><br>
+        <label for="B">Boarding</label>
+        <input type="checkbox" name="avali" id="B"><br>
+        <label for="F">Fooding</label>
+        <input type="checkbox" name="avali" id="F"><br>
+        <label for="S">Fooding</label>
+        <input type="checkbox" name="avali" id="S">
+        <br>
+        <label>Discount Coupon code:</label>
+        <br>
+        <input type="text"><br>
+        <label>Terms and conditions*</label><br>
+        <input type="radio" id="Y">
+        <label for="Y">I agree</label>
+        <input type="radio" id="N">
+        <label for="N">I disagree</label>
+        <br>
+    <input type="submit" value="Comple reservation">
+</form>
+
+
+</body>
+</html>

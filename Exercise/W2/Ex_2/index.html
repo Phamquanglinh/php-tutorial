@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>Ex_01</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>A Simple Form</h1>
+<h2>Form fundametal</h2>
+<form>
+<fieldset>
+    <legend>Customer Info</legend>
+
+        <label>Name: </label>
+        <input name="name" type="text" maxlength="50" placeholder="Enter your name"><br>
+        <label>Telephone: </label>
+        <input name="tel" type="tel" placeholder="Pattern: 1-234-567-8910"><br>
+        <label>E-mail address: </label>
+        <input name="email" type="email" maxlength="50" placeholder="Enter your email address"><br>
+        <label>Gender: </label>
+        <input type="radio" name="gender" id="Male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="Female" value="female">
+        <label for="female">Female</label><br>
+
+        <label>Hobbies: </label>
+        <label for="Bac">Backetball</label>
+        <input type="checkbox" name="hobbie" id="Bac" value="Backetball">
+
+        <label for="Foot">Female</label>
+        <input type="checkbox" name="hobbie" id="Foot" value="Football">
+
+        <label for="Bad">Female</label>
+        <input type="checkbox" name="hobble" id="Bad" value="Badminton"><br>
+
+
+</fieldset>
+
+<fieldset>
+    <legend>Books</legend>
+    <form class="Books">
+        <label>Name: </label>
+        <input name="name" type="text" placeholder="Enter your name">
+        <label>Quantity(maximum 5)</label>
+        <input type="number" min="1" max="5">
+
+
+
+</fieldset>
+<input type="submit" value="submit">
+<input type="reset" value="reset">
+</form>
+
+
+</body>
+</html>
