@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3c62c32-559d-401d-babc-4b6121660dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Exercise/W2/Ex_5/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise/W2/Ex_5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W2/Ex_5/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -64,7 +65,10 @@
       <updated>1607485886902</updated>
       <workItem from="1607485889152" duration="4058000" />
       <workItem from="1607518908023" duration="22000" />
-      <workItem from="1607947699635" duration="6642000" />
+      <workItem from="1607947699635" duration="6805000" />
+      <workItem from="1607996240423" duration="76000" />
+      <workItem from="1607996434004" duration="355000" />
+      <workItem from="1607996807481" duration="209000" />
     </task>
     <servers />
   </component>
@@ -82,5 +86,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="277" y="57" key="SettingsEditor" timestamp="1607996936724">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1607996936724" />
   </component>
 </project>
