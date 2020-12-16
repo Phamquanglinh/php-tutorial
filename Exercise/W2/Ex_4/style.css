@@ -1,7 +1,10 @@
-.table{
+.table {
     width: 500px;
     margin: auto;
     border: 2px solid;
     border-collapse: collapse;
 }
-td{border: 2px solid;}
+
+td {
+    border: 2px solid;
+}

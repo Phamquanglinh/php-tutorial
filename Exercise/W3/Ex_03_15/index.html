@@ -1,86 +1,91 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Ex_03</title>
-    </head>
-    <body>
-        <h1>Application for permission to dare my daughter</h1>
-        <p></p><b>Note: </b>Form is to be completed at least 21 days prior to date</p>
-        <form action="#" method="POST">
-            <fieldset>
-              
-                <legend>Personal Details</legend>
-                <label>Name:</label>
-                <input type="text" placeholder="Enter name here"><br>
-                <label>Address</label>
-                <input type="text" placeholder="Enter address here"><br>
-                <label>Email:</label>
-                <input type="email" placeholder="Enter email here"><br>
-                <label>IQ</label>
-                <input type="number" placeholder="Enter IQ here"><br>
-                <label>Gender</label><br>
-                <input type="radio" name="gender" id="Male">
-                <label for="Male">Male</label><br>
-                <input type="radio" name="gender" id="Female">
-                <label for="Female">Female</label><br>
-                <input type="radio" name="gender" id="Other">
-                <label for="Other">Other</label><br>
-                <label>Date of Proposed Outing:</label>
-                <input type="date">
 
-            </fieldset>
-            <fieldset>
-                <label>Check All That Apply</label><br>
-                <input type="checkbox" id="check-1">
-                <label for="check-1">I have tattoos and/or piecings</label><br>
-                <input type="checkbox" id="check-2">
-                <label for="check-2">Iam more than 2 years older than my daughter</label><br>
-                <input type="checkbox" id="check-3">
-                <label for="check-3">I own a panel van or V8 ute</label><br>
-                <input type="checkbox" id="check-4">
-                <label for="check-4">I work full-time</label><br>
-                <input type="checkbox" id="check-5">
-                <label for="check-5">My parents are rich</label><br>
-                <input type="checkbox" id="check-6">
-                <label for="check-6">Is the date at a well lit public location</label>
-            </fieldset>
+<head>
+    <title>Ex_03</title>
+</head>
+<style>
+    .legend {
+        border: 2px solid
+    }
+</style>
 
-            <fieldset>
-                <label>Political Persuasion</label>
-                <input list="Pol">
-                <datalist id="Pol">
+<body>
+    <h1>Application for permission to dare my daughter</h1>
+    <p></p><b>Note: </b>Form is to be completed at least 21 days prior to date</p>
+    <form action="#" method="POST">
+        <fieldset>
+
+            <legend>Personal Details</legend>
+            <label>Name:</label>
+            <input type="text" placeholder="Enter name here"><br>
+            <label>Address</label>
+            <input type="text" placeholder="Enter address here"><br>
+            <label>Email:</label>
+            <input type="email" placeholder="Enter email here"><br>
+            <label>IQ</label>
+            <input type="number" placeholder="Enter IQ here"><br>
+            <label>Gender</label><br>
+            <input type="radio" name="gender" id="Male">
+            <label for="Male">Male</label><br>
+            <input type="radio" name="gender" id="Female">
+            <label for="Female">Female</label><br>
+            <input type="radio" name="gender" id="Other">
+            <label for="Other">Other</label><br>
+            <label>Date of Proposed Outing:</label>
+            <input type="date">
+
+        </fieldset>
+        <fieldset>
+            <label>Check All That Apply</label><br>
+            <input type="checkbox" id="check-1">
+            <label for="check-1">I have tattoos and/or piecings</label><br>
+            <input type="checkbox" id="check-2">
+            <label for="check-2">Iam more than 2 years older than my daughter</label><br>
+            <input type="checkbox" id="check-3">
+            <label for="check-3">I own a panel van or V8 ute</label><br>
+            <input type="checkbox" id="check-4">
+            <label for="check-4">I work full-time</label><br>
+            <input type="checkbox" id="check-5">
+            <label for="check-5">My parents are rich</label><br>
+            <input type="checkbox" id="check-6">
+            <label for="check-6">Is the date at a well lit public location</label>
+        </fieldset>
+
+        <fieldset>
+            <label>Political Persuasion</label>
+            <input list="Pol">
+            <datalist id="Pol">
                     <option value="Left Wing">
                     <option value="Right Wing">
                     <option value="Conservative">
                     <option value="Nazi">
                 </datalist>
 
-                <label>Education Lever Completed</label>
-                <input list="Edu">
-                <datalist id="Edu">
+            <label>Education Lever Completed</label>
+            <input list="Edu">
+            <datalist id="Edu">
                     <option value="University">
                     <option value="College">
                     <option value="High School">
                     <option value="None">
                 </datalist>
 
-                </fieldset>
+        </fieldset>
 
-                <fieldset>
-                    <legend>Essay Section</legend>
-                    <p>In 59 words or more explain why you want to date my daugter</p>
-                    <input type="text" placeholder="Enter Text Here" minlength="50">
-                    <p>Please upload contact detail for 2 references</p>
-                    <input type="text" placeholder="Enter Text Here">
-                    <br>
-                    <p>Upload your Police Certificate, Bank Statement and Medical Certificate here:</p>
-                    <input type="file">
-                </fieldset>
-                <input type="submit" value="Send your application">
-        </form>
+        <fieldset>
+            <legend>Essay Section</legend>
+            <p>In 59 words or more explain why you want to date my daugter</p>
+            <input type="text" placeholder="Enter Text Here" minlength="50">
+            <p>Please upload contact detail for 2 references</p>
+            <input type="text" placeholder="Enter Text Here">
+            <br>
+            <p>Upload your Police Certificate, Bank Statement and Medical Certificate here:</p>
+            <input type="file">
+        </fieldset>
+        <input type="submit" value="Send your application">
+    </form>
 
-    </body>
-    <style>
-        .legend{border:2px solid}
-    </style>
+</body>
+
 </html>
