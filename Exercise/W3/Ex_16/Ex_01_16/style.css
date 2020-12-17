@@ -1,0 +1,37 @@
+body{
+    background-image: url("../Image/background.jpg");
+    background-repeat: repeat;
+    font-family: Verdana;
+}
+header{
+    background: pink;
+    text-align: center;
+    padding: 25px;
+}
+nav li{
+    display: inline;
+    border: 1px;
+    width:75%;
+}
+nav li a:hover{
+    background: purple;
+    color: pink;
+    text-decoration: none;
+}
+header nav ul li{
+    background: yellow;
+    border: 1px solid black;
+    padding: 5px;
+}
+h1{
+    color: red;
+    font-family: Arial;
+}
+h2{
+    color: white;
+    font-family: "Courier New";
+}
+footer{
+    background: yellow;
+    text-align: center;
+    border: 1px dotted;

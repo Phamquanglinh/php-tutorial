@@ -1,0 +1,63 @@
+body{
+    background-image: url("../Image/background.jpg");
+    background-repeat: repeat;
+    font-family: Verdana;
+}
+header{
+    background: pink;
+    text-align: center;
+    padding: 25px;
+}
+nav li{
+    display: inline;
+    border: 1px;
+    width:75%;
+}
+nav li a:hover{
+    background: purple;
+    color: pink;
+    text-decoration: none;
+}
+header nav ul li{
+    background: yellow;
+    border: 1px solid black;
+    padding: 5px;
+}
+h1{
+    color: red;
+    font-family: Arial;
+}
+h2{
+    color: white;
+    font-family: "Courier New";
+}
+footer{
+    background: yellow;
+    text-align: center;
+}
+.box{
+    background:cornsilk;
+    border: 3px dotted;
+    width: 50%;
+    padding: 15px;
+    margin: 15px auto;
+}
+.btn{
+    list-style: none;
+    width: inherit;
+}
+.btn li{
+    color: white;
+    background: blue;
+    border: 2px solid white;
+    width: inherit;
+}
+.copyright{
+    width: 200px;
+    padding: 15px;
+    font-size: 10px;
+    text-decoration: initial;
+    background: #0ff;
+    border: 1px solid;
+    border-radius:15px;
+}

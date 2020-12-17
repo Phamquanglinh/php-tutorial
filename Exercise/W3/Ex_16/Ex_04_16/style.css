@@ -1,0 +1,19 @@
+*{
+    font-family: Arial;
+}
+header{
+    padding: 10px;
+    text-align: center;
+    background: #bdcbcb;
+    box-shadow: grey 1px 4px 2px 1px;
+}
+main{
+    margin-top: 15px;
+    text-align: center;
+}
+main form input{
+    margin: 8px;
+}
+#list{
+    width: 5%;
+}

@@ -20,6 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3c62c32-559d-401d-babc-4b6121660dbd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Exercise/W3/Ex_16/Ex_01_16/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/W3/Ex_16/Ex_01_16/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/W3/Ex_16/Ex_02_16/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/W3/Ex_16/Ex_02_16/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/W3/Ex_16/Ex_03_16/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/W3/Ex_16/Ex_04_16/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/W3/Ex_16/Ex_04_16/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercise/W1/Ex1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W1/Ex1/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercise/W1/Ex2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W1/Ex2/index.html" afterDir="false" />
@@ -33,9 +40,9 @@
       <change beforePath="$PROJECT_DIR$/Exercise/W2/Ex_3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W2/Ex_3/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercise/W2/Ex_4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W2/Ex_4/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercise/W2/Ex_5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W2/Ex_5/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise/W3/Ex_01_15/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W3/Ex_01_15/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise/W3/Ex_02_15/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W3/Ex_02_15/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise/W3/Ex_03_15/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W3/Ex_03_15/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise/W3/Ex_01_15/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W3/Ex_15/Ex_01_15/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise/W3/Ex_02_15/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W3/Ex_15/Ex_02_15/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise/W3/Ex_03_15/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W3/Ex_15/Ex_03_15/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +56,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -65,10 +73,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Exercise/W3/Ex_16/Ex_02_16" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Job\htdocs\php-tutorial\Exercise\W3\Ex_16\Ex_02_16" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Job\htdocs\php-tutorial\Exercise\W3\Ex_16\Image" />
+      <recent name="D:\Job\htdocs\php-tutorial\Exercise\W3\Ex_16" />
+      <recent name="D:\Job\htdocs\php-tutorial\Exercise\W3\Ex_15" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -84,7 +103,7 @@
       <workItem from="1607996240423" duration="76000" />
       <workItem from="1607996434004" duration="355000" />
       <workItem from="1607996807481" duration="209000" />
-      <workItem from="1608092574417" duration="378000" />
+      <workItem from="1608092574417" duration="9144000" />
     </task>
     <servers />
   </component>
