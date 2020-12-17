@@ -1,0 +1,23 @@
+*{
+    font-family: Arial;
+}
+body{background:#F6F3E5}
+.clearfix{
+    border-bottom: 2px solid;
+    width: 85%;
+    background: white;
+    padding: 10px;
+    margin: 12px auto 15px ;
+}
+.left{width: 70%;float: left}
+.right{width: 26%;float: left;margin: 7px 12px;}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+.sidebar{
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}

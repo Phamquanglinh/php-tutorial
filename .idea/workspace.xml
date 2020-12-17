@@ -24,9 +24,10 @@
       <change afterPath="$PROJECT_DIR$/Exercise/W3/Ex_16/Ex_01_16/style.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Exercise/W3/Ex_16/Ex_02_16/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Exercise/W3/Ex_16/Ex_02_16/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise/W3/Ex_16/Ex_03_16/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Exercise/W3/Ex_16/Ex_04_16/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Exercise/W3/Ex_16/Ex_04_16/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/W3/Ex_16/Ex_05_16/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/W3/Ex_16/Ex_05_16/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercise/W1/Ex1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W1/Ex1/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercise/W1/Ex2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W1/Ex2/index.html" afterDir="false" />
@@ -43,6 +44,7 @@
       <change beforePath="$PROJECT_DIR$/Exercise/W3/Ex_01_15/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W3/Ex_15/Ex_01_15/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercise/W3/Ex_02_15/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W3/Ex_15/Ex_02_15/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercise/W3/Ex_03_15/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W3/Ex_15/Ex_03_15/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise/W3/Ex_16/Ex_03_16/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W3/Ex_16/Ex_03_16/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +105,7 @@
       <workItem from="1607996240423" duration="76000" />
       <workItem from="1607996434004" duration="355000" />
       <workItem from="1607996807481" duration="209000" />
-      <workItem from="1608092574417" duration="9144000" />
+      <workItem from="1608092574417" duration="12703000" />
     </task>
     <servers />
   </component>
