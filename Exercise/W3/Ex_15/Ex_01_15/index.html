@@ -7,13 +7,13 @@
 <body>
     <form action="#" method="POST">
         <label>Tên đầy đủ</label>
-        <input type="text" placeholder="Nhập tên đầy đủ người mua hàng"><br>
+        <input type="text" name="fullName" placeholder="Nhập tên đầy đủ người mua hàng"><br>
         <label>Password</label>
-        <input type="password" placeholder="Nhập password"><br>
+        <input type="password"  name="password" placeholder="Nhập password"><br>
         <label>Email</label>
-        <input type="email" placeholder="Nhập Email"><br>
+        <input type="email" name="email" placeholder="Nhập Email"><br>
         <label>Ngày sinh</label>
-        <input type="date"><br>
+        <input name="date" type="date"><br>
         <label>Mặt hàng mua</label>
         <input list="products" name="product">
         <datalist id="products">
@@ -24,9 +24,9 @@
                 <option value= "Trousers" >
             </datalist><br>
         <label>Số lượng mua</label>
-        <input type="number" min="5" max="5"><br>
+        <input name="count" type="number" min="5" max="5"><br>
         <label>Bán kính vận chuyển</label>
-        <input type="range" min="10" max="20">
+        <input name="trans" type="range" min="10" max="20">
         <br><input type="submit" value="Đăng ký">
     </form>
 </body>

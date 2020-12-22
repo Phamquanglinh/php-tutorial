@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    font-family: 'Lora' ,SansSerif;
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)) , url("Meterial/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position:center;
+    height: 600px;
+    margin: auto;
+}
+.menu{
+    padding: 20px;
+    position: relative;
+}
+.logo{
+    /* width: 50%; */
+    font-size: 40px;
+    color: white;
+}
+.nav-bar{
+    /* width: 50%; */
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+.nav-bar li{
+    display: inline;
+    color: white;
+    margin: 15px;
+    cursor: pointer;
+}
+#li-active{
+    border: 1px solid white;
+    border-radius: 100px;
+    padding: 10px 15px;
+}
+#li-active:hover{
+    color: black;
+    background: white;
+    transition: 0.6s;
+
+}
+.main-header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 30%;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.i{font-style: italic;margin: 10px;}
+h1{
+    font-size: 52px;
+}
+#more-btn{
+    padding: 15px;
+    background: rgb(54, 179, 168);
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+#more-btn:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+/*Main*/
+main{
+    margin: 100px 125px;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-content{
+    margin-bottom: 125px;
+    text-align: center;
+}
+.text-content .title{
+    font-size: 36px;
+    font-weight:bold;
+    line-height: 36px
+}
+.text-content .describe{
+    margin-top: 12px;
+}
+.image-content li{
+    width: 49%;
+    display: inline-table;
+}
+.image-content img{
+    width: 100%;
+}
+.img-box{padding: 20px;}
+.img-caption{
+    font-size: 20px;
+    margin: 24px auto;
+    text-align: center;
+    color: rgb(61, 153, 145);
+}
+.img-describe{
+    text-align: center;
+    line-height: 36px;
+}
+/*Footer*/
+footer{
+    padding: 75px;
+    text-align: center;
+    background: rgb(31 31 31);
+    color: white;
+}
+footer .unsans{
+    font-family: sans-serif;
+    margin-bottom: 16px;
+}
+footer .sans{}
