@@ -20,15 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3c62c32-559d-401d-babc-4b6121660dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Exercise/W4/Ex_01/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise/W4/Ex_01/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise/W2/Ex_1/Excercises.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise/W2/Ex_3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W2/Ex_3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise/W2/Ex_5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W2/Ex_5/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise/W3/Ex_15/Ex_01_15/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W3/Ex_15/Ex_01_15/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise/W3/Ex_15/Ex_02_15/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W3/Ex_15/Ex_02_15/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise/W3/Ex_15/Ex_03_15/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W3/Ex_15/Ex_03_15/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise/W4/Monday(22-12)/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W4/Monday(22-12)/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise/W4/Monday(22-12)/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W4/Monday(22-12)/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +64,7 @@
       <recent name="D:\Job\htdocs\php-tutorial\Exercise\W3\Ex_16\Ex_02_16" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Job\htdocs\php-tutorial\Exercise\W4\Ex_01" />
       <recent name="D:\Job\htdocs\php-tutorial\Exercise\W3\Ex_16\Image" />
       <recent name="D:\Job\htdocs\php-tutorial\Exercise\W3\Ex_16" />
       <recent name="D:\Job\htdocs\php-tutorial\Exercise\W3\Ex_15" />
@@ -91,7 +86,8 @@
       <workItem from="1607996807481" duration="209000" />
       <workItem from="1608092574417" duration="12703000" />
       <workItem from="1608263282678" duration="586000" />
-      <workItem from="1608639078664" duration="12786000" />
+      <workItem from="1608639078664" duration="13098000" />
+      <workItem from="1608685437133" duration="682000" />
     </task>
     <servers />
   </component>
