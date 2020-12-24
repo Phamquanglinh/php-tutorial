@@ -92,6 +92,7 @@ main{
 }
 .text-content .describe{
     margin-top: 12px;
+    line-height: 30px;
 }
 .image-content li{
     width: 49%;

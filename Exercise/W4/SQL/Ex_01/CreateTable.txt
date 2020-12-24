@@ -1,0 +1,73 @@
+/* Create KhachHang table*/
+CREATE TABLE `KHACH_HANG`(
+	 `MaKH` INT NOT NULL AUTO_INCREMENT,
+  	 `TenCongTy` VARCHAR(255) NOT NULL,
+  	 `TenGiaodich` VARCHAR(255) NOT NULL,
+	 `Diachi` VARCHAR(255) NOT NULL,
+  	 `Email` VARCHAR(255) NOT NULL,
+  	 `DienThoai` VARCHAR(10) NOT NULL,
+  	 `Fax` VARCHAR(10),
+	PRIMARY KEY( `MaKH`)
+);
+
+/*Create KhachHang table*/
+CREATE TABLE `DON_DAT_HANG`(
+`SoHoaDon` INT NOT NULL AUTO_INCREMENT , 
+`MaKH` INT NOT NULL , 
+`MaNV` INT NOT NULL , 
+`NgayDatHang` DATETIME NOT NULL , 
+`NgayGiaoHang` DATETIME NOT NULL , 
+`NgayChuyenHang` DATETIME NOT NULL , 
+`NoiGiaoHang` VARCHAR(255) NOT NULL , 
+PRIMARY KEY (`SoHoaDon`)
+);
+/*Create NhanVien table*/
+CREATE TABLE `NHAN_VIEN` ( 
+`MaNV` INT NOT NULL AUTO_INCREMENT , 
+`Ho` VARCHAR(255) INT NOT NULL , 
+`Ten` VARCHAR(255) INT NOT NULL , 
+`Ngaysinh` DATE NOT NULL , 
+`Ngaylamviec` DATE NOT NULL , 
+`Diachi` VARCHAR(255) NOT NULL , 
+`LuongCoBan` INT NOT NULL , 
+`PhuCap` INT NOT NULL , 
+PRIMARY KEY (`MaNV`)
+);
+/*Create MatHang table*/
+CREATE TABLE `MAT_HANG` ( 
+`MaHang` INT NOT NULL AUTO_INCREMENT, 
+`TenHang` VARCHAR(255) NOT NULL , 
+`MaCT` INT NOT NULL , 
+`MaLoaiHang` INT NOT NULL , 
+`SoLuong` INT NOT NULL , 
+`Donvitinh` VARCHAR(255) NOT NULL , 
+`GiaHang` INT NOT NULL , 
+PRIMARY KEY (`MaHang`)
+);
+/*Create ChiTietDonHang*/
+CREATE TABLE `CHI_TIET_DON_HANG` ( 
+`SoHoaDon` INT NOT NULL , 
+`MaHang` INT NOT NULL , 
+`GiaBan` INT NOT NULL , 
+`SoLuong` INT NOT NULL , 
+`MaGiamGia` VARCHAR(255) NOT NULL , 
+PRIMARY KEY (`SoHoaDon`, `MaHang`)
+);
+/*Create NhaCungCap table*/
+CREATE TABLE `NHA_CUNG_CAP` ( 
+`MaCT` INT NOT NULL AUTO_INCREMENT , 
+`TenCongTy` VARCHAR(255) NOT NULL , 
+`TenGiaoDich` VARCHAR(255) NOT NULL , 
+`DiaChi` VARCHAR(255) NOT NULL , 
+`DienThoai` INT(10) NOT NULL , 
+`Fax` INT(10) NOT NULL , 
+`Email` VARCHAR(255) NOT NULL , 
+PRIMARY KEY (`MaCT`)
+);
+/*Create LoaiHang table*/
+CREATE TABLE `LOAI_HANG` ( 
+`MaLoaiHang` INT NOT NULL AUTO_INCREMENT , 
+`TenLoaiHang` VARCHAR(255) NOT NULL , 
+PRIMARY KEY (`MaLoaiHang`)
+);
+

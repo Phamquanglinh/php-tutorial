@@ -35,13 +35,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Exercise/W4/Monday(22-12)/style.css" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1lP5SedoAucMer12gHbcjmKS5FF" />
   <component name="ProjectViewState">
@@ -58,6 +62,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -87,7 +94,7 @@
       <workItem from="1608092574417" duration="12703000" />
       <workItem from="1608263282678" duration="586000" />
       <workItem from="1608639078664" duration="13098000" />
-      <workItem from="1608685437133" duration="682000" />
+      <workItem from="1608685437133" duration="6377000" />
     </task>
     <servers />
   </component>
