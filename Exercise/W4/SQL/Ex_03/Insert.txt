@@ -1,0 +1,26 @@
+INSERT INTO `Employee` 
+(`Name`, `Address`, `Grade`, `Sex`, `Birthyear`)
+VALUES ('Pham Quang Linh', 'KTX My Dinh', 'K34B1', 'Nam', '2002'), 
+('Pham Truong Giang', 'KTX My Dinh', 'K34Bx', 'undef', '2002'), 
+('Lee Min Ho', 'Korea', 'SS', 'Nam', '1996'), 
+('Yoshina', 'Mai Dich', 'K34B1', 'Gay', '2002'), 
+('Nguyen Thi Bitch', 'KTX My Dinh', 'K34B1', 'Nu', '2012'), 
+('Maria', 'Hoang Mai', 'K34B1', 'Nu', '2002'), 
+('Nakkarot', 'AoV', 'K34B1', 'Nu', '1951'), 
+('Anti ', 'Unknown', 'K3bx', 'Nu', '1989'), 
+('Yua Mikami', 'Japan', 'Heyzo', 'Nu', '1998'), 
+('Seigo Tokuda', 'Japan', 'DRR', 'Nam', '1929')
+
+INSERT INTO `Grade`
+(`GradeID`, `Salary`)
+VALUES
+('1', '100'),
+('2', '200'),
+('3', '400'),
+('4', '200'),
+('5', '900'),
+('6', '500'),
+('7', '600'),
+('8', '200'),
+('9', '60'),
+('10', '100'),

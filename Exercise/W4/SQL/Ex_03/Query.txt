@@ -1,0 +1,20 @@
+SELECT Name,Address,2020-Birthyear AS Age FROM Employee
+
+DELETE FROM Employee WHERE Id=3
+
+DELETE FROM Employee WHERE Sex='Nam'
+
+UPDATE Employee SET Grade='B' WHERE Id=4
+
+UPDATE Grade SET Salary=500 WHERE Salary=300
+
+SELECT Max(Birthyear) AS Youngest , Min(Birthyear) AS Oldest FROM Employee
+
+SELECT AVG(2020-Birthyear) AS AVG,SUM(2020-Birthyear) AS SUM FROM Employee
+
+SELECT * FROM Employee WHERE Sex='Nu' AND (2020-Birthyear)>18
+
+SELECT * FROM Employee WHERE Sex='Nam' AND (2020-Birthyear)<60
+
+SELECT AVG(2020-Birthyear) AS AVG_Female,SUM(2020-Birthyear) AS SUM_Female FROM Employee
+WHERE Sex='Nu' And (2020-Birthyear) BETWEEN 18 AND 60
