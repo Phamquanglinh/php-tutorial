@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3c62c32-559d-401d-babc-4b6121660dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Exercise/W4/SQL/Ex_03/Create.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise/W4/SQL/Ex_03/Insert.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise/W4/SQL/Ex_03/Query.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/W4/SQL/Ex_04/Create.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/W4/SQL/Ex_04/Insert.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/W4/SQL/Ex_04/query.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +97,7 @@
       <workItem from="1608639078664" duration="13098000" />
       <workItem from="1608685437133" duration="6377000" />
       <workItem from="1608789945123" duration="182000" />
-      <workItem from="1608836838843" duration="2504000" />
+      <workItem from="1608836838843" duration="6256000" />
     </task>
     <servers />
   </component>

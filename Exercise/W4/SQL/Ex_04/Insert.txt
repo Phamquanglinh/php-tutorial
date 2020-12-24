@@ -1,0 +1,41 @@
+INSERT INTO `SINHVIEN`
+(`MaSV`, `HoSV`, `TenSV`, `Phai`, `NgaySinh`, `NoiSinh`, `MaKH`, `HocBong`)
+VALUES
+('A01', 'Nguyễn thị', 'Hải', '1', '1977-02-23', 'Hà Nội', 'TH', '130000'),
+('A02', 'Trần văn', 'Chính', '0', '1977-12-24', 'Bình Định', 'TH', '150000'),
+('A03', 'Lê thu bạch', 'Yến', '1', '1977-02-21', 'Tp HCM', 'TH', '170000'),
+('A04', 'Trần anh', 'Tuấn', '0', '1977-12-20', 'Hà Nội', 'AV', '80000'),
+('B01', 'Trần thanh', 'Mai', '1', '1977-08-12', 'Hải Phòng', 'TR', '0'),
+('B02', 'Trần thị thu', 'Thuỷ', '1', '1977-01-02', 'Tp HCM', 'AV', '0')
+
+INSERT INTO `MON`
+(`MaMH`, `TenMH`, `SoTiet`)
+VALUES
+('01', 'Cơ sở dữ liệu', '45'),
+('02', 'Trí tuệ nhân tạo', '45'),
+('03', 'Truyền tin', '45'),
+('04', 'Đồ hoạ', '60'),
+('05', 'Văn phạm', '60')
+
+INSERT INTO `KETQUA` (`MaSV`, `MaMH`, `Diem`)
+ VALUES
+ ('A01', '01', 3),
+ ('A01', '02', 6),
+ ('A01', '03', 5),
+ ('A02', '01', 4.5),
+ ('A02', '03', 10),
+ ('A02', '05', 9),
+ ('A03', '01', 2),
+ ('A03', '03', 2.5),
+ ('A04', '05', 10),
+ ('B01', '01', 7),
+ ('B01', '03', 2.5),
+ ('B02', '02', 6),
+ ('B02', '04', 10)
+
+ INSERT INTO `KHOA`
+ (`MaKH`, `TenKH`)
+ VALUES
+ ('AV', 'Anh Văn'),
+ ('TH', 'Tin Học'),
+ ('TR', 'Triết')
