@@ -1,0 +1,6 @@
+3. SELECT * FROM RAP WHERE TEN_RAP='MegaStar'
+
+4. DELETE FROM PHIM WHERE TEN_PHIM='Sex Is Zero'
+
+5. UPDATE PHIM SET TEN_PHIM = 'Cướp biển Carribe' 
+	WHERE TEN_PHIM = 'Xác ướp Ai Cập'
