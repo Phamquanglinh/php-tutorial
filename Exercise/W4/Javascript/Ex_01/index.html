@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex_01</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <label>1st Number: </label>
+        <input name="fist-number" type="number" id="1st"><br>
+        <label>2nd Number: </label>
+        <input name="second-number" type="number" id="2nd">
+    </form>
+        <button onclick="M()">Multipy</button>
+        <button onclick="D()">Divide</button>
+    <p>The Result Is:</p>
+    <div id="result"></div>
+    <script>
+        function M(){
+            fNumber=document.getElementById("1st").value;
+            sNumber=document.getElementById("2nd").value;
+            Nresult=fNumber*sNumber;
+            document.getElementById("result").innerHTML=Nresult;
+        }
+        function D(){
+            fNumber=document.getElementById("1st").value;
+            sNumber=document.getElementById("2nd").value;
+            Nresult=fNumber/sNumber;
+            document.getElementById("result").innerHTML=Nresult;
+        }
+
+    </script>
+</body>
+</html>

@@ -20,10 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3c62c32-559d-401d-babc-4b6121660dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Exercise/W4/SQL/Ex_04/Create.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise/W4/SQL/Ex_04/Insert.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise/W4/SQL/Ex_04/query.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/W4/Javascript/Ex_01/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/W4/Javascript/Ex_02/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/W4/Javascript/Ex_03/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/W4/Javascript/Ex_04/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/W4/Javascript/Ex_05/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise/W4/Monday(22-12)/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W4/Monday(22-12)/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise/W4/Monday(22-12)/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W4/Monday(22-12)/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +76,7 @@
       <recent name="D:\Job\htdocs\php-tutorial\Exercise\W3\Ex_16\Ex_02_16" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Job\htdocs\php-tutorial\Exercise\W4\Javascript\Ex_05" />
       <recent name="D:\Job\htdocs\php-tutorial\Exercise\W4\Ex_01" />
       <recent name="D:\Job\htdocs\php-tutorial\Exercise\W3\Ex_16\Image" />
       <recent name="D:\Job\htdocs\php-tutorial\Exercise\W3\Ex_16" />
@@ -97,7 +102,8 @@
       <workItem from="1608639078664" duration="13098000" />
       <workItem from="1608685437133" duration="6377000" />
       <workItem from="1608789945123" duration="182000" />
-      <workItem from="1608836838843" duration="6256000" />
+      <workItem from="1608836838843" duration="8185000" />
+      <workItem from="1608865597646" duration="1612000" />
     </task>
     <servers />
   </component>
