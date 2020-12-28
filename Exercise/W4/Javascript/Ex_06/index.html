@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex_06</title>
+</head>
+<body>
+    <script>
+        fArray=[1,2,3,3];
+        sArray=[100,2,1,10,3,3];
+        pArray=[];
+        for(i=0;i<fArray.length;i++){
+            for(j=0;j<sArray.length;j++){
+                if(fArray[i]===sArray[j]){
+                    tmp=1;
+                    for(k=0;k<pArray.length;k++){
+                        if(sArray[j]===pArray[k]){
+                            tmp=0;
+                        }
+                    }
+                    if(tmp===1){
+                        pArray.push(sArray[j]);
+                    }
+                }
+            }
+        }
+        for (i=0;i<pArray.length;i++){
+            console.log(pArray[i]);
+        }
+    </script>
+</body>
+</html>

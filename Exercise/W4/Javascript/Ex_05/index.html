@@ -6,8 +6,15 @@
 </head>
 <body>
     <script>
+        myString="";
         myColor = ["Red" , "Green" , "White" , "Black" ];
-
+        for(i=0;i<myColor.length;i++){
+            myString+=myColor[i];
+            if (i<myColor.length-1){
+                myString+=' , ';
+            }
+        }
+        document.write(myString);
     </script>
 </body>
 </html>
