@@ -6,20 +6,20 @@
 </head>
 <body>
     <script>
-        fNumber=3840;
-        sNumber=1989;
-        multiply=fNumber*sNumber;
-        while (fNumber != sNumber){
-            if(fNumber>sNumber){
-                fNumber-=sNumber;
+        firstNumber=3840;
+        secondNumber=1989;
+        multiplyMethod=firstNumber*secondNumber;
+        while (firstNumber != secondNumber){
+            if(firstNumber>secondNumber){
+                firstNumber-=secondNumber;
             }
             else
             {
-                sNumber-=fNumber;
+                secondNumber-=firstNumber;
             }
         }
-        document.write('UCLN='+fNumber+'<br>');
-        document.write('BCNN='+multiply/fNumber);
+        document.write('UCLN='+firstNumber+'<br>');
+        document.write('BCNN='+multiplyMethod/firstNumber);
     </script>
 </body>
 </html>
