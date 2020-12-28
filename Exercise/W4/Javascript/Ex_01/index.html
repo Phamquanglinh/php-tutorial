@@ -7,9 +7,9 @@
 <body>
     <form action="#" method="post">
         <label>1st Number: </label>
-        <input name="fist-number" type="number" id="1st"><br>
+        <input name="fist-number" type="number" id="firstNumber"><br>
         <label>2nd Number: </label>
-        <input name="second-number" type="number" id="2nd">
+        <input name="second-number" type="number" id="secondNumber">
     </form>
         <button onclick="M()">Multipy</button>
         <button onclick="D()">Divide</button>
@@ -17,16 +17,16 @@
     <div id="result"></div>
     <script>
         function M(){
-            fNumber=document.getElementById("1st").value;
-            sNumber=document.getElementById("2nd").value;
-            Nresult=fNumber*sNumber;
-            document.getElementById("result").innerHTML=Nresult;
+            firstNumber=document.getElementById("firstNumber").value;
+            secondNumber=document.getElementById("secondNumber").value;
+            numberResult=firstNumber*secondNumber;
+            document.getElementById("result").innerHTML=numberResult;
         }
         function D(){
-            fNumber=document.getElementById("1st").value;
-            sNumber=document.getElementById("2nd").value;
-            Nresult=fNumber/sNumber;
-            document.getElementById("result").innerHTML=Nresult;
+            firstNumber=document.getElementById("firstNumber").value;
+            secondNumber=document.getElementById("secondNumber").value;
+            numberResult=firstNumber/secondNumber;
+            document.getElementById("result").innerHTML=numberResult;
         }
 
     </script>
