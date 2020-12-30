@@ -119,8 +119,7 @@ footer{
     background: rgb(31 31 31);
     color: white;
 }
-footer .unsans{
+footer .text-sans-serif{
     font-family: sans-serif;
     margin-bottom: 16px;
 }
-footer .sans{}
