@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3c62c32-559d-401d-babc-4b6121660dbd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Exercise/W4/Javascript/Ex_05/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W4/Javascript/Ex_05/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise/W4/Javascript/Ex_01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W4/Javascript/Ex_01/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Exercise/W3/Ex_16/Ex_02_16" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
@@ -97,7 +98,8 @@
       <workItem from="1608789945123" duration="182000" />
       <workItem from="1608836838843" duration="8185000" />
       <workItem from="1608865597646" duration="3484000" />
-      <workItem from="1609118088268" duration="7742000" />
+      <workItem from="1609118088268" duration="9581000" />
+      <workItem from="1609290784111" duration="163000" />
     </task>
     <servers />
   </component>
