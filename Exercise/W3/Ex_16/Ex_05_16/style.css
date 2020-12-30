@@ -21,3 +21,12 @@ body{background:#F6F3E5}
     border-bottom: 1px solid;
     padding-bottom: 10px;
 }
+.bg-1{
+    background:#ffffcc;
+}
+.bg-2{
+    background:#ffeeee;
+}
+.bg-3{
+    background:#CCFFFF;
+}
