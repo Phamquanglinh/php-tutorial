@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex_04</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../Font-Awesomecss/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Đăng ký thành viên</div>
+        <div class="note">
+            Để đăng ký thành viên, bạn cần khai báo tất cả các ô
+            trống dưới đây
+        </div>
+        <div class="sign-up-content">
+            <form name="sign-up" method="post" onsubmit="return signupValidate()">
+                <fieldset class="infomation">
+                    <input name="first-name" type="text" placeholder="Họ và tên đệm" required><br>
+                    <input name="last-name" type="text" placeholder="Tên" required><br>
+                    <input name="username" type="text" placeholder="Tên đăng nhập" required><br>
+                    <input name="email" type="email" placeholder="Email" required><br>
+                    <input name="password" type="password" id="js-password" placeholder="Mật khẩu" onkeyup="checkStrong()" required><br>
+                    <p class="alert" id="js-strong"></p>
+                    <input name="re-password" type="password" id="js-re-password" placeholder="Nhập lại mật khẩu" onkeyup="checkSimilar()" required><br>
+                    <p class="alert" id="js-similar"></p>
+                </fieldset>
+                <fieldset class="flex">
+                    <label class="col-40">Giới tính</label>
+                    <input  type="radio" id="other" name="gender" value="other"required>
+                    <label  for="other">N/A</label>
+                    <input type="radio" id="male" name="gender" value="male"required>
+                    <label  for="male">Nam</label><br>
+                    <input type="radio" id="female" name="gender" value="female"required>
+                    <label for="female">Nữ</label><br>
+                </fieldset>
+                <fieldset class="infomation">
+                    <input name="birth-day" type="date"  placeholder="Ngày tháng năm sinh" required><br>
+                    <input name="signature" type="text" maxlength="1000" placeholder="Chữ ký" required><br>
+                    <input list="private-question" name="privite-question" placeholder="Câu hỏi bảo mật" required>
+                    <datalist id="private-question">
+                        <option value="Tên bố bạn"></option>
+                        <option value="Tên mẹ bạn"></option>
+                        <option value="Bạn gặp người yêu khi nào ?"></option>
+                    </datalist><br>
+                    <input type="text" name="private-answer" placeholder="Trả lời câu hỏi" required><br>
+                </fieldset>
+<!--                Privacy check and submit-->
+                <fieldset class="submit-form">
+                    <input type="checkbox" id="js-agree-checkbox" name="agree" disabled onclick="openSubmit()">
+                    Tôi đồng ý với
+                    <a href="#" id="privacy-doc" onclick="checkPrivacy()">Quy định đăng ký thành viên</a>
+                    <div id="modal">
+                        <div id="modal-content">
+                            <span id="close">&times;</span>
+                            <ul>
+                                <li>1.Linh đẹp trai nhất</li>
+                                <li>2.Linh đẹp trai nhất</li>
+                                <li>3.Linh đẹp trai nhất</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <br>
+                    <input  class="btn" type="reset" value="Thiết lập lại">
+                    <input  id="js-submit-btn" class="btn btn-sky" type="submit" value="Đăng ký thành viên" disabled>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="javascript.js"></script>
+</html>
