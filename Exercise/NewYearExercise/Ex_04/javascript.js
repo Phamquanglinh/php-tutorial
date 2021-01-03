@@ -45,6 +45,7 @@ function openSubmit(){
         document.getElementById("js-submit-btn").style.cursor="pointer";
 }
 
+
 function signupValidate(){
     if(checkSimilar() && checkStrong()){
         return true;

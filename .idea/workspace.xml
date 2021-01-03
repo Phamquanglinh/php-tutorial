@@ -20,15 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3c62c32-559d-401d-babc-4b6121660dbd" name="Default Changelist" comment="locate new place of NewyearExercise">
-      <change afterPath="$PROJECT_DIR$/Exercise/NewYearExercise/Ex_05/action.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise/NewYearExercise/Ex_05/javascript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise/NewYearExercise/Ex_05/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise/NewYearExercise/Ex_08/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise/NewYearExercise/Ex_08/q and a.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise/NewYearExercise/Ex_08/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise/NewYearExercise/Ex_09/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise/NewYearExercise/Ex_09/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/NewYearExercise/Ex_07/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/NewYearExercise/Ex_07/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise/NewYearExercise/Ex_04/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/NewYearExercise/Ex_04/javascript.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +102,7 @@
       <workItem from="1608865597646" duration="3484000" />
       <workItem from="1609118088268" duration="9581000" />
       <workItem from="1609290784111" duration="5882000" />
-      <workItem from="1609389895958" duration="70331000" />
+      <workItem from="1609389895958" duration="78647000" />
     </task>
     <task id="LOCAL-00001" summary="upload NewYearWeek Exercise">
       <created>1609400539678</created>
