@@ -1,0 +1,66 @@
+.container{
+    font-family: Arial;
+    max-width: 800px;
+    margin: auto;
+    padding: 45px;
+    box-shadow: 0px -1px 20px black;
+}
+#name{
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+}
+#country{
+    text-align: center;
+    margin: 6px 0 6px 0;
+}
+.contact{
+    width: 100%;
+    /* font-size: 13px; */
+    text-align: center;
+}
+
+.content{
+    margin-top: 22px;
+}
+.focus{
+    margin-bottom: 22px;
+}
+.title{
+    font-size: 19px;
+    font-weight: bold;
+    clear: both;
+    margin-bottom: 12px;
+}
+.content-text{
+    /* padding: 12px 0 0 0; */
+    font-size: 13px;
+    line-height: 1.6;
+}
+.educate{
+    margin-bottom: 35px;
+}
+.time-working{
+    float: right;
+    clear: both;
+}
+.italic-text{
+    font-style:italic;
+    font-size: 13px;
+    margin-top: 29px;
+    /* margin-bottom: 12px; */
+}
+.bold-text{
+    font-weight:bold;
+}
+.misson{
+    list-style: none;
+}
+.hr{
+    border-bottom: 1px solid;
+}
+
+.contact table {
+    width: 52%;
+    margin: auto;
+}

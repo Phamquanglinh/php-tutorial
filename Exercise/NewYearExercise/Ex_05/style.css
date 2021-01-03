@@ -1,0 +1,78 @@
+#hr span{
+    background:#fff;
+    padding:0 10px;
+}
+#hr{
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+.container{
+    max-width: 1000px;
+    display: flex;
+    padding: 6px;
+    margin: auto;
+    border: 8px solid #00588b;
+}
+
+.slideShow{
+    width: 52%;
+    /* border: 2px solid #a4b1ab; */
+    margin: 2% 5% 5% 2%;
+}
+.register-form{
+    width: 40%;
+    color: #0a8896;
+    margin-top: 8px;
+}
+.register-form p {
+    font-size: 12px;
+}
+.register-form input{
+    width: 100%;
+    padding: 8px 0px 8px 11px;
+    margin: -6px auto 12px;
+    display: flex;
+    /* border-radius: 7px; */
+    border: 1px solid #a2a5b3;
+}
+.register-form fieldset{
+    border:none;
+}
+.btn{
+    border: 1px solid;
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 13px;
+}
+#force-btn{
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 13px;
+}
+#captcha{
+    font-size: 31px;
+    margin-left: 12px;
+    font-family: cursive;
+    color: #234896;
+}
+#js-re-pass-label {
+    transition: 0.6s;
+}
+
+#js-re-password {
+    transition: 0.6s;
+}
+#force-btn div{
+    font-size: 14px;
+}
+#force-btn div:hover{
+    transform: translateX(-10px);
+    transition: 0.6s;
+    font-size: 16px;
+}

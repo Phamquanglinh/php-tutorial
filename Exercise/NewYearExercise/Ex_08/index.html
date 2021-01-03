@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex_08</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="../Images/08-slide-01.jpg" alt="slide-01">
+                </div>
+
+                <div class="item">
+                    <img src="../Images/08-slide-02.jpg" alt="slide-02">
+                </div>
+
+                <div class="item">
+                    <img src="../Images/08-slide-03.jpg" alt="slide-03">
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div class="q-a" id="accordion">
+            <button class="accordion">Giới thiệu</button>
+            <div class="panel" style="overflow: hidden; display: none;">
+                <div class="img"><img src="../Images/08-describe.jpg"></div>
+                <ul id="describe">
+                    <li>'Phật nhảy tường' - món ăn bổ dưỡng phải nấu ba ngày mới xong
+                        Để nấu được món ăn trứ danh này, bạn phải chuẩn bị nguyên liệu thật kỹ và hầm trong nhiều giờ.
+                        Cánh hoa sen chiên giòn khác lạ của mỹ nữ Trung Quốc
+                        Mỹ nữ Trung Quốc dạy làm dầu nấm mối ăn kèm mì nước
+                        "Phật nhảy tường" thực chất là súp vi cá của người Phúc Kiến, món ăn bổ dưỡng do một đầu bếp trong
+                        phủ của quan chức cấp cao địa phương sáng chế vào thời nhà Thanh (1644 - 1912). Đây là một trong
+                        những món được xếp vào hàng "cao lương mỹ vị" trong ẩm thực Trung Hoa bởi mùi vị đa dạng mà
+                        tinh tế đến nỗi dân gian truyền hai câu thơ ngụ ý đến người tu hành cũng không thể cưỡng lại
+                        được: "Đàm khải huân hương phiêu tứ lân/Phật văn khí thiền khiêu tường lai" (tạm dịch: Mở nắp vung,
+                        mùi hương thơm lừng bay khắp xóm/ Phật ngửi được, liền bỏ thiền nhảy tường sang).
+                    </li>
+                    <li>Được chế biến công phu từ những nguyên liệu thượng hạng như vi cá mập, hải sâm,
+                        bong bóng cá, gân nai, kỳ tử... nên Phật nhảy tường loại "xịn" chỉ bán trong
+                        những nhà hàng hạng sang và có giá rất đắt, không phải ai cũng có thể ăn được.
+                        Tuy nhiên bạn vẫn có thể tự chế biến món này ở nhà theo công thức của Lý Tử Thất
+                        - cô nàng nổi tiếng với các video hướng dẫn nấu các món ăn dân dã với chi phí rẻ
+                        hơn mà chất lượng không tồi.
+                    </li>
+                </ul>
+            </div>
+            <button class="accordion">Chuẩn bị nguyên liệu</button>
+            <div class="panel" style="overflow: hidden; display: none;">
+                <ul id="metarial">
+                    <li>Trước tiên, bạn cần phải ngâm bào ngư và liêu sâm (một loại hải sâm) khô trong hai ngày cho mềm, đàn hồi, dễ ăn.</li>
+                    <li>Sườn heo, móng heo, vịt già, gà núi, dạ dày heo, mề vịt chặt khúc, đem luộc sơ để lọc bỏ chất bẩn.</li>
+                    <li>Cho hỗn hợp thịt vào nồi đất (hoặc nồi gang) hầm chung với hành lá, thỉnh thoảng vớt bỏ váng dầu.</li>
+                    <li>Sau 6 tiếng đồng hồ thì gạn bỏ xương, chỉ lấy nước làm nước hầm.</li>
+                    <li>Vi cá, nấm dạ dày, da cá, hến khô ngâm trong nước ấm cho nở.</li>
+                    <li>Chiên gân heo và bong bóng cá rồi ngâm nước ấm cho mềm.</li>
+                    <li>Chân giò hun khói thái lát mỏng, trứng bồ câu luộc bóc vỏ.</li>.
+                </ul>
+            </div>
+            <button class="accordion">Cách nấu</button>
+            <div class="panel" style="overflow: hidden; display: none;">
+                <ol id="cooking">
+                    <li>Trước tiên, xếp tất cả nguyên liệu ngay ngắn vào trong một nồi đất thường dùng để sắc thuốc Bắc.</li>
+                    <li>Sau đó cho nước nước hầm từ nhiều loại thịt và đặc biệt là rượu hoa điêu, loại danh tửu Trung Quốc
+                        có gốc từ rượu Thiệu Hưng, tỉnh Chiết Giang vào nồi, lót một lớp lá sen trước khi đậy vung lại để giữ chất.</li>
+                    <li>Canh lửa nhỏ hầm suốt hai tiếng là xong</li>
+                </ol>
+                <iframe width="80%" class="center-block" src="https://www.youtube.com/embed/fpHTCqseQug" allowfullscreen></iframe>
+            </div>
+            <button class="accordion">Giá trị dinh dưỡng</button>
+            <div class="panel" style="overflow: hidden; display: none;">
+                <p>
+                    Ngoài độ ngon khó cưỡng, món ăn được chế biến công phu này còn rất bổ dưỡng đến nỗi các gia
+                    đình quý tộc cũng thỉnh thoảng mới dùng vào mùa đông vì món bổ thường mang tính nhiệt,
+                    có thể gây chảy máu cam nếu ăn vào mùa hè. Ở TP HCM, bạn có thể tìm mua Phật nhảy tường
+                    trong các nhà hàng tại khu người Hoa, quận 5. Giá khoảng 130.000 - 700.000 đồng/thố tùy loại.
+                </p>
+            </div>
+            <button class="accordion">Thông tin người nấu</button>
+            <div class="panel" style="overflow: hidden; display: none;">
+                   <div id="flex-item">
+                       <div class="avatar">
+
+                       </div>
+                       <div class="infomation">
+                           <ul>
+                               <li>Ngày/nơi sinh: 6 tháng 7, 1990 (30 tuổi), Miên Dương, Trung Quốc</li>
+                               <li>Tên đầy đủ: Li Ziqi</li>
+                               <li>Quốc tịch: Cộng hòa Nhân dân Trung Hoa</li>
+                               <li>Năm hoạt động: 2017–nay</li>
+                               <li>Lượt đăng ký: 12,5 triệu; (28 tháng 9 năm 2020)</li>
+                               <li>Nghề nghiệp: YouTuber, blogger về ẩm thực</li>
+                           </ul>
+                       </div>
+                   </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="q and a.js"></script>
+</body>
+</html>

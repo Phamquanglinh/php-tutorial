@@ -1,0 +1,41 @@
+.login-form label, .login-form input{
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 9px;
+}
+#auto-login{width: 5%;margin: 3px;}
+.login-form{
+    max-width: 373px;
+    margin:auto;
+    padding: 16px;
+    border: 11px solid #04538b;
+}
+#hr span{
+    background:#fff;
+    padding: 1px 10px;
+}
+#hr{
+    text-align: center;
+    border-bottom: 1px solid #c7adad;
+    line-height: 0.1em;
+    margin: 11px 0 11px;
+    color: #b9a9a9;
+}
+.social {
+    width: 33%;
+    margin: 1%;
+}
+.social-login {
+    width: 100%;
+    display: flex;
+    margin: 22px 0;
+}
+.inline {
+    display: flex;
+    padding: 14px 1px;
+}
+
+.inline span {
+    width: 56%;
+}
