@@ -44,8 +44,6 @@
     50%  {border-right:1px solid ;}
     75%  {border-bottom:1px solid ;}
     100% {border:1px solid ;}
-
-
 }
 .btn:hover{
     background: white;
