@@ -16,7 +16,6 @@
 }
 .contact{
     width: 100%;
-    /* font-size: 13px; */
     text-align: center;
 }
 
@@ -26,7 +25,7 @@
 .focus{
     margin-bottom: 22px;
 }
-.title{
+.heading{
     font-size: 19px;
     font-weight: bold;
     clear: both;
