@@ -11,11 +11,11 @@
     padding: 16px;
     border: 11px solid #04538b;
 }
-#hr span{
+.hr span{
     background:#fff;
     padding: 1px 10px;
 }
-#hr{
+.hr{
     text-align: center;
     border-bottom: 1px solid #c7adad;
     line-height: 0.1em;

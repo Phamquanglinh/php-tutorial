@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3c62c32-559d-401d-babc-4b6121660dbd" name="Default Changelist" comment="locate new place of NewyearExercise">
-      <change beforePath="$PROJECT_DIR$/Exercise/NewYearExercise/Ex_05/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/NewYearExercise/Ex_05/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise/NewYearExercise/Ex_06/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/NewYearExercise/Ex_06/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise/NewYearExercise/Ex_06/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/NewYearExercise/Ex_06/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +103,7 @@
       <workItem from="1609290784111" duration="5882000" />
       <workItem from="1609389895958" duration="78713000" />
       <workItem from="1609731447800" duration="1133000" />
-      <workItem from="1609894731564" duration="902000" />
+      <workItem from="1609894731564" duration="1006000" />
     </task>
     <task id="LOCAL-00001" summary="upload NewYearWeek Exercise">
       <created>1609400539678</created>
