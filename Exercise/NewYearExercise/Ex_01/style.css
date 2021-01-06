@@ -1,7 +1,7 @@
 .container{
     font-family: "Arial";
 }
-.textArea{
+.text-content{
 
     width: 50%;
 
@@ -15,7 +15,7 @@
 
     color: #112222a8;
 }
-.pictureArea{
+.picture{
 
     width: 50%;
 }
