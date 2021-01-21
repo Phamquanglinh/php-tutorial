@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Ex_01</title>
+    </head>
+    <body>
+        <form action="#result" method="post" onsubmit="return valiDate()">
+            <label>Nhập vào số a</label>
+            <input type="number" name="number" id="number" required />
+            <input type="submit" value="Kiểm tra" />
+        </form>
+        <div id="result"></div>
+    </body>
+    <script>
+        function valiDate() {
+            number = Number(document.getElementById("number").value);
+            if ((number >= 1 && number <= 10) || (number >= 50 && number <= 100)) {
+                alert("hợp lệ");
+            } else {
+                document.getElementById("result").innerText = "Không nằm trong khoảng 1-10 hoặc 50-100";
+                return false;
+            }
+        }
+    </script>
+</html>

@@ -20,6 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3c62c32-559d-401d-babc-4b6121660dbd" name="Default Changelist" comment="locate new place of NewyearExercise">
+      <change afterPath="$PROJECT_DIR$/Exercise/W6/Ex_01/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/W6/Ex_02/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/W6/Ex_03/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/W6/Ex_04/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/W6/Ex_05/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +39,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -65,15 +70,15 @@
     <option name="enabled" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Job\htdocs\php-tutorial\Exercise\W3\Ex_16\Ex_02_16" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\php-tutorial\Exercise\W6\Ex_01" />
       <recent name="D:\Job\htdocs\php-tutorial\Exercise\NewYearExercise\Ex_08" />
       <recent name="D:\Job\htdocs\php-tutorial\Exercise\NewYearExercise\Ex_05" />
       <recent name="D:\Job\htdocs\php-tutorial\Exercise" />
       <recent name="D:\Job\htdocs\php-tutorial\Exercise\W4\Javascript\Ex_05" />
-      <recent name="D:\Job\htdocs\php-tutorial\Exercise\W4\Ex_01" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Job\htdocs\php-tutorial\Exercise\W3\Ex_16\Ex_02_16" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -106,6 +111,7 @@
       <workItem from="1609942623972" duration="3000" />
       <workItem from="1609943960552" duration="18000" />
       <workItem from="1610075411961" duration="1126000" />
+      <workItem from="1611234531126" duration="12426000" />
     </task>
     <task id="LOCAL-00001" summary="upload NewYearWeek Exercise">
       <created>1609400539678</created>
@@ -143,5 +149,11 @@
     <MESSAGE value="upload NewYearWeek Exercise" />
     <MESSAGE value="locate new place of NewyearExercise" />
     <option name="LAST_COMMIT_MESSAGE" value="locate new place of NewyearExercise" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1611235403470">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1611235403470" />
   </component>
 </project>

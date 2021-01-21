@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Ex_05</title>
+        <style>
+            #notification {
+                color: red;
+            }
+            #result {
+                color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="#" method="post" onsubmit="return validateForm()">
+            <label>Name</label>
+            <input type="text" id="name" required="" placeholder="username" oninvalid="this.setCustomValidity('Không để trống trường này')" oninput="setCustomValidity('')" /><br />
+            <label>Email</label>
+            <input type="text" id="email" required="" placeholder="username" oninvalid="this.setCustomValidity('Không để trống trường này')" oninput="setCustomValidity('')" /><br />
+            <label>Country</label>
+            <select name="country" id="country" required oninvalid="this.setCustomValidity('Cần phải chọn Country')" oninput="setCustomValidity('')">
+                <option selected value="">Select-contry</option>
+                <option value="Viet Nam">Viet Nam</option>
+                <option value="Japan">Japan</option>
+                <option value="USA">USA</option>
+            </select>
+            <br />
+            <input type="submit" value="Send-info" />
+        </form>
+        <div id="notification"></div>
+        <div id="result"></div>
+    </body>
+    <script>
+        function regexEmail(email) {
+            re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return re.test(String(email).toLowerCase());
+        }
+        function validateForm() {
+            //DOM
+            name = document.getElementById("name").value;
+            email = document.getElementById("email").value;
+            country = document.getElementById("country").value;
+            // Validate
+            if (regexEmail(email)) {
+                document.getElementById("result").innerHTML = "" + "Name:" + name + "<br>" + "Email:" + email + "<br>" + "Country:" + country;
+            } else {
+                document.getElementById("notification").innerText = "Email không đúng định dạng";
+            }
+            return false;
+        }
+    </script>
+</html>
