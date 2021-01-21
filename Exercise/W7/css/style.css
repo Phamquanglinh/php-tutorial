@@ -1,0 +1,86 @@
+.logo {
+    font-family: "Inconsolata";
+    font-size: 30pt;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline;
+    font-size: 14px;
+    font-family: "Playfair Display";
+    color: rgb(98, 98, 98);
+    text-transform: uppercase;
+    line-height: 1.714;
+    text-align: center;
+    margin: 35px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+img{width: 100%}
+.mini-text{
+    font-size: 14px;
+    font-family: "Ubuntu";
+    color: rgb(180, 173, 158);
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-top: 12px;
+}
+.headding{
+    font-size: 30px;
+    font-family: "Playfair Display";
+    color: rgb(98, 98, 98);
+    line-height: 1.2;
+    margin-bottom: 19px;
+}
+.content-text {
+    font-size: 14px;
+    font-family: "Playfair Display";
+    color: rgb(98, 98, 98);
+    line-height: 1.714;
+    text-align: left;
+}
+.form-email{
+    background-color: rgb(240, 240, 240);
+    padding: 24px;
+}
+.form-email input{
+    font-size: 14px;
+    font-family: "Playfair Display";
+    color: rgb(98, 98, 98);
+    line-height: 1.714;
+}
+.load-more{text-align: center;padding: 70px;}
+.load-more-btn{
+    background: none;
+    font-size: 20px;
+    font-family: "Playfair Display";
+    color: rgb(98, 98, 98);
+    line-height: 1.2;
+    padding: 10px;
+    border:1px solid rgb(98, 98, 98) ;
+}
+footer{
+    background-color: rgb(240, 240, 240);
+    padding: 19px;
+}
+footer ul li{
+    display: inline;
+    margin: 29px;
+}
+footer .content-footer, footer .social{
+    font-size: 14px;
+    font-family: "Playfair Display";
+    color: rgb(0, 0, 0);
+    line-height: 1.714;
+    display: flex;
+    align-items: center;
+}
+
