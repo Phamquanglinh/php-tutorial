@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Ex_02</title>
+    </head>
+    <body>
+        <div>Giải phương trình bậc 2</div>
+        <form action="#" method="post" onsubmit="return calEquation()">
+            <p>Nhập vào hệ số a:</p>
+            <input type="number" id="a" required onkeyup="makeEquation()" />
+            <p>Nhập vào hệ số b:</p>
+            <input type="number" id="b" required onkeyup="makeEquation()" />
+            <input type="submit" value="Tìm x" onclick="calEquation()" />
+        </form>
+        <div id="equation"></div>
+        <div id="result"></div>
+    </body>
+    <script>
+        function makeEquation() {
+            a = document.getElementById("a").value;
+            b = document.getElementById("b").value;
+            equation = a + "x + " + b + " =0";
+            document.getElementById("equation").innerHTML = equation;
+        }
+        function calEquation() {
+            a = document.getElementById("a").value;
+            b = document.getElementById("b").value;
+            x = -b / a;
+            document.getElementById("result").innerHTML = "x=" + x;
+            return false;
+        }
+    </script>
+</html>
