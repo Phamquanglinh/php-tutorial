@@ -20,7 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3c62c32-559d-401d-babc-4b6121660dbd" name="Default Changelist" comment="locate new place of NewyearExercise">
-      <change beforePath="$PROJECT_DIR$/Exercise/W6/Ex_05/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise/W6/Ex_05/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/.idea/Exercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/LunnarNewYear/PSDHTML/Ex_02/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +111,10 @@
       <workItem from="1609942623972" duration="3000" />
       <workItem from="1609943960552" duration="18000" />
       <workItem from="1610075411961" duration="1126000" />
-      <workItem from="1611234531126" duration="12770000" />
+      <workItem from="1611234531126" duration="18013000" />
+      <workItem from="1611284257338" duration="81000" />
+      <workItem from="1611894644571" duration="733000" />
+      <workItem from="1614868559436" duration="8919000" />
     </task>
     <task id="LOCAL-00001" summary="upload NewYearWeek Exercise">
       <created>1609400539678</created>
@@ -146,6 +154,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="locate new place of NewyearExercise" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1611895377618">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1611895377618" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1611235403470">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
