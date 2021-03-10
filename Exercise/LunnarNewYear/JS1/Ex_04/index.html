@@ -16,13 +16,19 @@
     <script>
         function calFactorial() {
             factorial = Number(document.getElementById("factorial").value); //get Factorial nummber;
-            equation = "1"; //set default equation
-            total = 1; //set default result
+            var equation = "1"; //set default equation
+            var total = 1; //set default result
             if (factorial > 1) {
                 for (i = 2; i <= factorial; i++) {
                     total *= i;
                     equation += "x" + i;
                 }
+            }else {
+                if(factorial==1){
+                    equation=1;
+                }else {
+                    equation ="ERR"
+                 }
             }
             document.getElementById("result").innerHTML = equation + "=" + total;
             return false;
