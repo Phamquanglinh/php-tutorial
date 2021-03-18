@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <div class="container w-50 p-3">
     <?php
-    function snt(int $nummber){
+    function prime(int $nummber){
         if($nummber <2){
             return false;
         }
@@ -15,12 +15,12 @@
     }
     $value =1;
     for($i=1 ;$i<=10; $i++){
-        echo '<div class="row w-75 m-auto border">';
+        echo '<div class="row w-75 m-auto">';
         for($j=1;$j<=10;$j++){
-                if(snt($value)){
-                    echo '<div class="col bg-success p-3">'.$value.'</div>';
+                if(prime($value)){
+                    echo '<div class="col bg-success p-3 border text-white">'.$value.'</div>';
                 }else{
-                    echo '<div class="col bg-white p-3">'.$value.'</div>';
+                    echo '<div class="col bg-white p-3 border">'.$value.'</div>';
                 }
                 $value++;
             }
