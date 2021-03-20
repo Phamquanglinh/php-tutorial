@@ -20,14 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3c62c32-559d-401d-babc-4b6121660dbd" name="Default Changelist" comment="locate new place of NewyearExercise">
-      <change afterPath="$PROJECT_DIR$/Exercise/Mar-09/Ex_01/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise/Mar-09/Ex_02/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise/Mar-09/Ex_03/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise/Mar-09/Ex_04/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise/Mar-09/Ex_05/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise/Mar-09/Ex_06/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise/Mar-09/Ex_07/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise/Mar-09/Ex_09/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/Mar-15/Ex_01/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/Mar-15/Ex_01/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/Mar-15/Ex_01/logout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +39,7 @@
         <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="index" />
       </list>
     </option>
   </component>
@@ -74,22 +70,22 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReaderModeSettings">
     <option name="enabled" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Job\htdocs\php-tutorial\Exercise\W3\Ex_16\Ex_02_16" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\web\htdocs\php-tutorial\Exercise\Mar-14\Ex_01" />
       <recent name="C:\xampp\htdocs\php-tutorial\Exercise\W6\Ex_01" />
       <recent name="D:\Job\htdocs\php-tutorial\Exercise\NewYearExercise\Ex_08" />
       <recent name="D:\Job\htdocs\php-tutorial\Exercise\NewYearExercise\Ex_05" />
       <recent name="D:\Job\htdocs\php-tutorial\Exercise" />
-      <recent name="D:\Job\htdocs\php-tutorial\Exercise\W4\Javascript\Ex_05" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Job\htdocs\php-tutorial\Exercise\W3\Ex_16\Ex_02_16" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -128,7 +124,13 @@
       <workItem from="1614868559436" duration="8919000" />
       <workItem from="1614914668372" duration="2864000" />
       <workItem from="1615344347650" duration="637000" />
-      <workItem from="1615382684620" duration="7913000" />
+      <workItem from="1615382684620" duration="7995000" />
+      <workItem from="1615430242338" duration="4962000" />
+      <workItem from="1615863764438" duration="45000" />
+      <workItem from="1615863841685" duration="46000" />
+      <workItem from="1615864075095" duration="117000" />
+      <workItem from="1616038436714" duration="5653000" />
+      <workItem from="1616217071137" duration="2156000" />
     </task>
     <task id="LOCAL-00001" summary="upload NewYearWeek Exercise">
       <created>1609400539678</created>
@@ -166,5 +168,9 @@
     <MESSAGE value="upload NewYearWeek Exercise" />
     <MESSAGE value="locate new place of NewyearExercise" />
     <option name="LAST_COMMIT_MESSAGE" value="locate new place of NewyearExercise" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
